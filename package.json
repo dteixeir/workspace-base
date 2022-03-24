@@ -1,4 +1,9 @@
 {
+    "scripts": {
+        "clean": "npm run clean --workspaces",
+        "clean:full": "rm -rf node_modules && npm run clean:full --workspaces",
+        "build": "npm run clean --workspaces && npm run build --workspaces"
+    },
     "workspaces": [
         "./api",
         "./models",

@@ -6,6 +6,8 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
+    "clean": "rm -rf dist",
+    "clean:full": "npm run clean && rm -rf node_modules",
     "prebuild": "rimraf dist",
     "build": "nest build",
     "start": "nest start",
