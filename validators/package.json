@@ -1,0 +1,21 @@
+{
+    "name": "@test/validators",
+    "version": "1.0.0",
+    "private": true,
+    "author": "",
+    "license": "ISC",
+    "scripts": {
+        "build": "npm run clean && npx tsc",
+        "clean": "rm -rf lib",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@test/models": "workspace:*",
+        "yup": "^0.32.11"
+    },
+    "devDependencies": {
+        "@types/node": "^16.0.0",
+        "reflect-metadata": "^0.1.13",
+        "typescript": "^4.5.5"
+    }
+}
