@@ -22,8 +22,8 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@test/models": "workspace:*",
-    "@test/validators": "workspace:*",
+    "@test/models": "file:../models",
+    "@test/validators": "file:../validators",
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^8.0.0",
