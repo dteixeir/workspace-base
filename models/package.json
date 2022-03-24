@@ -4,6 +4,7 @@
     "private": true,
     "author": "",
     "license": "ISC",
+    "main": "dist/index.js",
     "scripts": {
         "build": "npm run clean && npx tsc",
         "clean": "rm -rf lib",
